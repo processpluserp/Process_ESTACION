@@ -1,0 +1,14 @@
+#info_basica,#contactos_banco,#parametrizacion_banco,#cuadros_bancos{
+	background-color:white;
+	border-radius:0.5em;
+}
+#nuevo_contacto_banco{
+	background-color:#E3E3E3;
+	border-radius:0.5em;
+}
+#nuevo_banco{
+	background-color:red;
+	padding:10px;
+	padding-left:5px;
+	padding-bottom:5px;
+}

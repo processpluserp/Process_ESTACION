@@ -1,0 +1,136 @@
+	ul{
+		list-style:none;
+		width:auto;
+	}
+
+	body{
+		font-family: 'Open Sans';
+  		font-style: normal;
+		font-size:1.5em;
+	}
+	div,input,p,label,table,tr,td,th{
+		font-family: 'Open Sans';
+  		font-style: normal;
+		font-size:95%;
+	}
+	
+	/*Contiene toda la info de Logeo.*/
+	#contenedor_datos_mayor{
+		width:85%;
+		margin: 50px  auto;
+	}
+	/*Tabla donde están los campos y la imagen de la emrpesa.*/
+	#tabla_logeo{
+		margin:0 auto;
+		background-color:white;
+		border-radius:1em;
+		border-radius:1em;
+		border: 3px solid white;
+		min-height:266.8px;
+	}
+	li{
+		width:98%;
+		display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+		
+	}
+	
+	#ventana_contrasena{
+		background-color:white;
+		border-radius:0.5em;
+		-moz-border-radius:0.5em;
+		-webkit-border-radius:0.5em;
+		margin:10px auto;
+	}
+	@media min-width(400px){
+		ul li{
+			display:block;
+		}
+	}
+	ul li{
+		display:inline-block;
+	}
+	.botton_verde{
+		border-radius:0.4em;
+		-moz-border-radius:0.4em;
+		-webkit-border-radius:0.4em;
+		width:100%;
+		height:47%;
+		border: 2px solid rgb(80,184,72);
+		background-color:rgb(80,184,72);
+		color:white;
+		text-align:center;
+		font-weight:bold;
+		cursor:pointer;
+		min-height: 42px;
+		vertical-align:top;
+	}
+	
+	.ingreso{
+		border-radius:0.4em;
+		-moz-border-radius:0.4em;
+		-webkit-border-radius:0.4em;
+		width: 96%;
+		height: 45%;
+		border: 2px solid white;
+		background-color: #E6E2E2;
+		color: black;
+		vertical-align:top;
+		text-align:left;
+		font-weight:bold;
+		min-height: 40px;
+		padding-left: 20px;
+	}
+	
+	#contenedor_mensaje_error{
+		margin:10px auto;
+		text-align:center;
+		width:85%;
+	}
+	/*LOGO DE LA COMPAÑIA*/
+	#img_log{
+		height:200px;
+		width:auto;
+	}
+	
+	
+	#mensaje_error{
+		text-align:center;
+		color:red;
+		background-color:white;
+		margin:auto;
+		padding:10px;
+		border-radius:1em;
+		-moz-border-radius:1em;
+		font-weight: bold;
+	}
+	
+	p{
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		width: 100%;
+		margin: auto;
+		background-color: #4BC937;
+		color: #F9FCF8;
+	}
+	#envio{
+		width:100%;
+		height:80%;
+		background-color: #1DC117;
+		border-color: #1DC117;
+		color: #F9FCF8;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+	}
+	::-webkit-input-placeholder {
+		color:#B2A9A9;
+		font-weight:bold;
+		text-align: left;
+		padding-left: 10px;
+		
+	}
+	::-moz-input-placeholder {
+		color:#B2A9A9;
+		padding-left:20%;
+	}

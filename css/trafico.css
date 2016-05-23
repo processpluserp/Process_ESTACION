@@ -1,0 +1,123 @@
+#crear_ot,#cv_trafico,#ventana_briefs,#ventana_reportes_trafico,#desc_ot,#ventana_informes,#time_table,#tarea_desc{
+	background-color:white;
+	border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	overflow-y:scroll;
+}
+#brief_1,#brief_2,#brief_3,#brief_4,#brief_5,#brief_6,#crear_tarea,#responder_tarea,#ventana_archivos_tareas,
+#contenedor_listado_brief,#adicionar_brief_nuevo_ot,#razon_cancelacion_ot,#traslado_ot,#adjuntar_ppto_tarea,#informe_entrevista,#ventana_asisitentes_agencia,#previ{
+	background-color:#E3E3E3;
+	border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+}
+.archivos{
+	color:black;
+}
+.contenedores_resultados{
+	height:230px;
+	overflow:scroll;	
+	width:99%;
+	
+}
+.contenedores_resultados::-webkit-scrollbar,.contenedores_resultados:scrollbar-small{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   width: 10px;
+}
+.contenedores_resultados::-webkit-scrollbar-thumb,.contenedores_resultados:scrollbarthumb-vertical,.contenedores_resultados:scrollbar-track-horizontal {
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   background-color: rgba(0,0,0,.5);
+   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+select{
+	padding:5px;
+}
+
+
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old){
+  width     : 2.5em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+}
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -2em;
+  line-height  : 1.5em;
+}
+input[type=checkbox]:not(old) + label > span,
+input[type=radio   ]:not(old) + label > span{
+  display          : inline-block;
+  width            : 1.3em;
+  height           : 1.3em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.0625em solid rgb(192,192,192);
+  border-radius    : 0.25em;
+  background       : rgb(80,184,72);
+  background-image :    -moz-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image :     -ms-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image :      -o-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image : -webkit-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image :         linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  vertical-align   : middle;
+}
+input[type=checkbox]:not(old):checked + label > span,
+input[type=radio   ]:not(old):checked + label > span{
+   background-image :    -moz-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image :     -ms-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image :      -o-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image : -webkit-linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+  background-image :         linear-gradient(rgb(80,184,72),rgb(80,184,72)));
+}
+input[type=checkbox]:not(old):checked + label > span:before,
+input[type=radio   ]:not(old):checked + label > span:before{
+  content     : '✓';
+  display     : block;
+  width       : 1em;
+  color       : white;
+  font-size   : 1.3em;
+  line-height : 1em;
+  text-align  : center;
+  text-shadow : 0 0 0.0714em white;
+  font-weight : bold;
+}
+
+.submenus_facturacion{
+  background-color:rgb(109, 202, 35);
+  padding:8px;
+  border-radius:0.3em;
+  -moz-border-radius:0.3em;
+  -webkit-border-radius:0.3em;
+  color:white;
+  
+}
+
+.ui-tabs .ui-tabs-active a, .ui-tabs .ui-tabs-active a:hover{
+  background-color: rgb(109, 202, 35);
+}
+
+.tabla_comprimosos_ie th{
+	border:1px solid black;
+	background-color:white;
+}
+.tabla_comprimosos_ie td{
+	border:1px solid black;
+}
+.tabla_comprimosos_ie th:first-child{
+	border-top-left-radius:0.3em;
+	-moz-border-top-left-radius:0.3em;
+	-webkit-border-top-left-radius:0.3em;
+}
+.tabla_comprimosos_ie th:last-child{
+	border-top-right-radius:0.3em;
+	-moz-border-top-right-radius:0.3em;
+	-webkit-border-top-right-radius:0.3em;
+}

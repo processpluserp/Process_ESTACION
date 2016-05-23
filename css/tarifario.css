@@ -1,0 +1,86 @@
+body{
+
+}
+div h1,#nuevo_item h1{
+	text-align:center;
+	padding:10px;
+}
+.nuevo_item h1{
+	font-size:14px;
+}
+#ingresar_datos_nuevos table tr td:first-child{
+	width:20%;
+}
+select{
+	width:350px;
+}
+#tarifario{
+	height:500px;
+}
+
+#datos_nuevos{
+	border:1px solid black;
+	height:500px;
+	padding:0px;
+}
+#datos_cargados{
+	border:1px solid black;
+}
+#contenedor_tarifario{
+	height:400px;
+}
+
+#cuadro_tarifa tr:nth-child(odd) {background-color:#CAC9C9;}
+#cuadro_tarifa tr:nth-child(even) {background-color: white;}
+#cuadro_tarifa th{
+	font-weight:bold;
+}
+#estructura_ppto td{
+	text-align:center;
+}
+.cabeceras{
+	background-color:#CAC9C9;
+	font-weight:bold;
+	text-align:center;
+}
+.cabeceras th,.cabeceras td{
+	border:1px solid black;
+}
+.item,#new_item{
+	width:90%;
+}
+.dias,.cantidad{
+	width:35px;
+}
+.valores,.valores2{
+	background-color:#DCDC28;
+	text-align:center;
+}
+.hidde{
+	display:none;
+}
+
+#estructura_ppto td:nth-child(13),#estructura_ppto td:nth-child(14),#estructura_ppto td:nth-child(16),#estructura_ppto td:nth-child(17),
+#estructura_ppto td:nth-child(19){
+	background-color:#97D6DF;
+}
+.barra_final td{
+	background-color:#F4E809;
+	font-weight:bold;	
+}
+#resumen_ppto table tr td,#resumen_ppto2  table tr td{
+	font-weight:bold;
+}
+#resumen_ppto table tr td,#resumen_ppto table tr th,#resumen_ppto2  table tr td,#resumen_ppto2  table tr th{
+	border: 1px solid black;
+}
+#resumen_ppto table tr:last-child{
+	background-color: #B9B6B6;
+}
+#resumen_ppto2  table tr td:nth-child(1),#resumen_ppto2  table tr td:nth-child(2){
+	background-color: #B9B6B6;
+}
+#resumen_ppto2  table tr:last-child{background-color:#DCDC28;}
+#form_nuevo_item,#form_nuevo_grupo,#form_nuevo_proveedor{
+	 cursor:pointer;
+}

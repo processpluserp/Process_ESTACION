@@ -1,0 +1,16 @@
+#informacion_basica_cliente,#documentos_cliente,#contactos_cliente,#contratos_clientes,#panel_opciones_administracion,#productos_clientes,#muestra_info_cliente{
+	background-color:white;
+	border-radius:0.5em;
+}
+img,.botones_opciones span,#ingresar_nuevo_documento,.botton_verde,#mostrar_all_usuarios,#abrir_documentos_cliente{
+	cursor:pointer;
+}
+#n_documento_cliente,#n_cliente_empresa,#nuevo_contacto_cliente,#nuevo_contrato,#ventana_negociacion_cliente,#nuevo_producto_cliente{
+	background-color:#E3E3E3;
+	border-radius:0.5em;
+}
+
+#contenedor_info_clientes{
+	
+	overflow:scroll;
+}

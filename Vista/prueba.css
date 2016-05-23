@@ -1,0 +1,233 @@
+
+
+
+
+/*
+#barra_menu td:nth-child(2){
+	background-color:#EF8C14;
+	font-size:24px;
+}
+*/
+/*
+.arrow-up {
+	width: 0px; 
+	height:0px; 
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 80px solid red;
+}
+*/
+#indicador{
+	position:absolute;
+	top:20%;
+	left:10%;
+}
+
+
+
+
+.inputs_gestion{
+	height:20px;
+	border-radius:0.3em;
+	border:1px solid black;
+}
+.mostrar_datos{
+	background-color:#676767;
+	color:white;
+	padding:5px;
+	border-radius:0.3em;
+}
+.botones{
+	width:30px;
+	height:30px;
+}
+.botones_estado{
+	width:15px;
+	height:15px;
+}
+.campo_oculto_tabla{
+	display:none;
+}
+/*
+.tablas_muestra_datos_tablas tr:nth-child(odd){
+	background-color: white;
+}
+.tablas_muestra_datos_tablas tr:nth-child(even)){
+	background-color: #E9E9E9;
+}
+*/
+
+.tablas_muestra_datos_tablas td:nth-child(2),.tablas_muestra_datos_tablas td:nth-child(3),.tablas_muestra_datos_tablas td:nth-child(4),.tablas_muestra_datos_tablas td:nth-child(6){
+	padding-left:10px;
+}
+#contenedo_tabla_muestra_empleados .tablas_muestra_datos_tablas td:nth-child(2):hover{
+	background-color: #CBD9E0;
+}
+
+/*
+/*MENU DESPLEGABLE
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid black;
+}
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid black;
+}
+
+.menus_padres th{
+	background-color:white;
+	border-radius:0.2em;
+	font-size:1.2em;
+}
+.menus_padres2 th{
+	background-color:white;
+	border-radius:0.2em;
+	font-size:1.2em;
+}
+.h_empresa td{
+	font-size:1em;
+	/*color:#EF8C14;
+}
+.h_empresa{
+	background-color:#D4D2D0;
+}
+.hh_empresa td{
+	font-size:1.1em;
+}
+*/
+#panel_muestra_datos{
+	background-color:white;
+	border-radius:0.3em;
+	height:750px;
+	width:100%;
+}
+
+a:link{   
+	text-decoration:none;   
+	color:white;
+}
+
+
+
+
+#datos_crear_empresa_gestion,#form_nuevo_empleado{
+	border-radius:0.3em;
+	border:2px solid #9D9B99;
+}
+#datos_modificar_empresa_gestion,#form_nuevo_documento,#modificar_info_empleado{
+	border-radius:0.3em;
+	border:2px solid #9D9B99;
+	background-color:#D3D3D3;
+}
+#datos_modificar_empresa_gestion input,#datos_modificar_empresa_gestion textarea,#form_nuevo_documento input{
+	/*border: 1px solid #D3D3D3;*/
+}
+
+#info_basica_equipo{
+	border-radius:0.5em;
+	background-color:#C9C9C9;
+}
+
+#caracteristicas_equipo{
+	border-radius:0.5em;
+	background-color:#87DA8A;
+}
+.nombre_empleado_hj{
+	border-radius:0.3em;
+	border:1px solid black;
+	font-size:1.3em;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.hoja_vida_empleado{
+	font-size:1em;
+}
+
+
+.personal_down {
+	font-size:1em;
+}
+.personal_down th{
+	padding-left:5px;
+	padding-right:5px;
+	border-top-left-radius:0.5em;
+	border-top-right-radius:0.5em;
+}
+.espacios_tabla{
+	width:20px;
+}
+
+.titulo_ventana{
+	font-size:1.3em;
+	color:#EF8C14;
+}
+
+#contenedor_items_add_ppto{
+	overflow:scroll;
+	width:auto;
+	height:280px;
+}
+#contenedor_ppto_general_x_und{
+	overflow:scroll;
+	width:auto;
+	height:500px;
+}
+
+
+
+
+
+
+
+
+.mano{
+	cursor:pointer;
+}
+
+
+.planilla_info{
+	border:1px solid black;
+	border-radius:0.5em;
+}
+.planilla_info input{
+	width:80%;
+	border-radius:0.3em;
+}
+
+
+#form_nuevo_proveedor input{
+	width: 90%;
+}
+#form_nuevo_proveedor select{
+	width: 90%;
+}
+.ventana_ordenes{
+	width:500px;
+	height:600px;
+}
+
+#contenedor_documentos_x_empresa{
+	overflow:scroll;
+	width:100%;
+	height:550px;
+}
+
+
+
+
+
+/*#form_nuevo_empleado input,#modificar_info_empleado input,#info_basica_empleado input,#contenedor_info_empresa input{width:100%;}*/
+
+
+

@@ -1,0 +1,15 @@
+.nombre_brief{
+	background-color:#3F3E3D;
+	padding:5px;
+	color:white;
+	font-size:20px;
+}
+.separator{
+	padding-left:20px;
+}
+.preguntas_brief td{
+	font-size:14px;
+}
+.preguntas_brief p{
+	font-size:14px;
+}

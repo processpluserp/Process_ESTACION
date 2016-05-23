@@ -1,0 +1,96 @@
+	#contenedor_cabecera_info{
+		position:absolute;
+		top:10.5%;
+		left:50%;
+		border-top-left-radius:1em;
+		border-top-right-radius:1em;
+		background-repeat: repeat-x;
+		background-image:url('../images/img_cabecera.png');
+	}
+	a:link{   
+		text-decoration:none;   
+	}
+	.link_internos{
+		color:white;
+	}
+	
+	#tabla_contenedora_datos_usuario > td{
+		text-align:center;
+	}
+	#tabla_contenedora_datos_usuario  p{
+		font-size:11px;
+	}
+	#cierra_sesion{
+		position:absolute;
+		top:5%;
+		left:65%;
+		z-index:100;
+	}
+	#contenedor_fecha{
+		color:white;
+		position:absolute;
+		top:3%;
+		left:3%;
+	}
+	#contenedor_menu_navegacion{
+		position:absolute;
+		top:55%;
+		left:1%;
+	}
+	#tabla_contenedora_datos_usuario td{
+		padding-left:2%;
+	}
+	body{
+		font-family:'Century Gothic';
+	}
+	div,input,p,label,table,tr,td,th{
+		font-family:'Century Gothic';
+		font-size:12px;
+	}
+	#img_logo2{
+		height:40%;
+		margin:auto;
+	}
+	
+	#tabla_contenedora_datos_usuario{
+		position:absolute;
+		top:4%;
+		left:64%;
+		background-color:white;
+		border-radius:1em;
+	}
+	
+	#contenedor_barra_navegacion{
+		text-align:center;
+		width:100%;
+		position:absolute;
+		top:13%;
+		left:4%;
+	}
+	#contenedor_barra_navegacion td{
+		background-color:black;
+		color:white;
+		border-radius:0.5em;
+	}
+	#contenedor_barra_navegacion td:nth-child(2){
+		background-color:#CDD5C4;
+		padding:1%;
+	}
+	#contenedor_barra_navegacion td:hover{
+		background-color:#CDD5C4;
+		font-weight: bold;
+		color:black;
+	}
+	#contenedor_principal_gestion{
+		position:absolute;
+		top:59%;
+		left:50%;
+		background-color:#DBDCDB;
+		border-bottom-left-radius:1em;
+		border-bottom-right-radius:1em;
+	}
+	.opciones_lista{
+		background-color: white;
+		border: 1em;
+		width:100px;
+	}

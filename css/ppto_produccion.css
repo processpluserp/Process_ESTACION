@@ -1,0 +1,68 @@
+#contenedor_ppto,#add_celula,#add_item{
+	font-size:12px;
+}
+#contenedor_cuadritos{
+	font-size:10px;
+}
+#contenedor_ppto{
+	overflow:scroll;
+	width:110%;
+	height:50%;
+}
+
+#v_generar_op,#ventana_asoc_items,#ventana_ordenes,#anticipos_ventana{
+	background-color:#E3E3E3;
+	border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+}
+
+#v_generar_op{
+	background-color:#E3E3E3;
+	border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+}
+.encabezado{
+		font-size: 10px;
+		border: 1px solid black;
+	}
+td{
+		text-align: center;
+	}
+.ocultos{
+		display:none;
+	}
+	.t{
+		border: 1px solid black;
+	}
+	.val{
+		width: 70px;
+	}
+	td,th{
+		padding: 2px;
+	}
+	.espacios{
+		padding: 5px;
+	}
+	#fecha_anticipo,#contenedor_cuadritos input{
+		width: 60px;
+	}
+	.hide{
+		display:none;
+	}
+#contenedor_cuadritos div{
+	border:1px solid black;
+	border-radius:1em;
+}
+
+.ui-tabs .ui-tabs-active a, .ui-tabs .ui-tabs-active a:hover{
+  background-color: rgb(109, 202, 35);
+}
+
+#contenedor_resumen_ppto table td{
+	font-size:12px;
+}
+#contenedor_resumen_ppto table td > span{
+	font-size:12px;
+}

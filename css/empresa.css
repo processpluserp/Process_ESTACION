@@ -1,0 +1,46 @@
+.estilos_barra td:nth-child(2){
+	background-color:#EF8C14;
+}
+.ui-tabs .ui-tabs-active a, .ui-tabs .ui-tabs-active a:hover{
+  background-color: rgb(39,170,225);
+}
+
+img,.botones_opciones span,#ingresar_nuevo_documento,.botton_verde,#mostrar_all_usuarios,
+#mostrar_all_empleados,#abrir_ventana_documentos,.salir_sistema,.titulo_padre_p,.titulos_hijo_p{
+cursor:pointer;
+}
+				
+#info_basica_empresa,#documentos_legales_empresa,#datos_empleados_empresa,#info_basica_empleado,#form_nuevo_empleado,#panel_opciones_financiero,#simulador_costo_nuevo_empleado,
+#modificar_info_empleado,#opciones_administracion,#nomina_detallado_empleados,#indepm_liqui_empleados,#ppto_general_empleados,#simulador_costo_empleado_sistema{
+	background-color:white;
+	border-radius:0.5em;
+	min-height: 600px;
+	min-width: 700px;
+}
+
+
+#datos_empleados_empresa{
+	/*overflow:scroll;*/
+}
+
+#form_nuevo_documento,#ventana_reportar_novedad_vacaciones{
+	background-color:#E3E3E3;
+	border-radius:0.5em;
+}
+
+
+#contenedor_info_empresa input{width:100%;}
+
+#form_nuevo_documento select,#form_nuevo_documento input{
+	width:100%;
+}
+#foto,#foto_x{
+	width:200px;
+	height:200px;
+	background-color:rgb(224,225,226);
+	border-radius:0.3em;-moz-border-radius:0.3em;-webkit-border-radius:0.3em;
+	
+}
+
+
+

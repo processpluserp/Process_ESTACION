@@ -1,0 +1,8 @@
+#informacion_basica,#documentos_proveedor,#contactos_proveedor,#acuerdo_tarifario{
+	background-color:white;
+	border-radius:0.5em;
+}
+#form_nuevo_proveedor,#nuevo_contacto_proveedor,#nuevo_documento_proveedor,#ventana_proveedor_info{
+	background-color:#E3E3E3;
+	border-radius:0.5em;
+}

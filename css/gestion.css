@@ -1,0 +1,323 @@
+
+.accordian {
+	background: #004050;
+	width: 250px;
+	margin: 100px auto 0 auto;
+	color: white;
+	/*Some cool shadow and glow effect*/
+	box-shadow: 
+		0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+		0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+/*heading styles*/
+.accordian h3 {
+	font-size: 1.2em;
+	line-height: 34px;
+	padding: 0 10px;
+	cursor: pointer;
+	/*fallback for browsers not supporting gradients*/
+	background: #003040; 
+	background: linear-gradient(#003040, #002535);
+}
+/*heading hover effect*/
+.accordian h3:hover {
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+/*iconfont styles*/
+.accordian h3 span {
+	font-size: 1.2em;
+	margin-right: 10px;
+}
+/*list items*/
+.accordian li {
+	list-style-type: none;
+}
+/*links*/
+.accordian ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 27px;
+	display: block;
+	padding: 0 15px;
+	/*transition for smooth hover animation*/
+	transition: all 0.15s;
+}
+/*hover effect on links*/
+.accordian ul ul li a:hover {
+	background: #003545;
+	border-left: 5px solid lightgreen;
+}
+/*Lets hide the non active LIs by default*/
+.accordian ul ul {
+	display: none;
+}
+.accordian li.active ul {
+	display: block;
+}
+	
+	
+	#contenedor_tabla_opciones_gestion{
+		position:absolute;
+		top:51%;
+		left:50.5%;
+	}
+	
+	#tabla_opciones_gestion tr:nth-child(odd) {background-color: #F0F0F0;}
+	#tabla_opciones_gestion tr:nth-child(even) {background-color: white;}
+	#tabla_opciones_gestion td{
+		border-radius: 0.5em;
+		text-align: center;
+	}
+	#contenedor_datos_administracion_principal{
+		position:absolute;
+		top:51%;
+		left:72%;
+		background-color:white;
+		border-bottom-left-radius:1em;
+		border-bottom-right-radius:1em;
+	}
+	.entradas_bordes_select{
+		width:300px;
+		font-size:1.2em;
+		border-radius: 5px;
+		padding:2px;
+	}
+	#tabla_opciones_gestion tr,td{
+		padding:8px;
+	}
+	/*TAMAÑO DE LOS DATOS DE LAS TABLAS*/
+	#tabla_contenedor_info_ubicaciones td,#tabla_contenedor_info_proveedores td, #tabla_contenedor_info_empresas td, #tabla_contenedor_info_cliente td,
+	#tabla_contenedor_info_productos_cliente td{
+		font-size:1.2em;
+	}
+	
+	/*CREACION DE EMPRESA*/
+	#datos_crear_empresa_gestion,#datos_modificar_empresa_gestion,
+	#datos_crear_cliente_gestion,#datos_modificar_cliente_gestion,
+	#datos_crear_producto_cliente_gestion,
+	#datos_crear_proveedor_gestion,#datos_modificar_proveedor_gestion,
+	#datos_crear_pais_gestion,#datos_crear_ceco_gestion,#datos_modificar_ceco_gestion,
+	#datos_crear_depto_gestion,#datos_modificar_depto_gestion,
+	#datos_crear_usuario_gestion{
+		border-radius: 2em;
+		position:absolute;
+		top:40%;
+		left:50%;
+	}
+	
+	#contenedor_tabla_empresa_gestion,#contenedor_tabla_cliente_gestion,#contenedor_tabla_productos_cliente_gestion,#contenedor_tabla_proveedores_gestion,
+	#contenedor_tabla_ubicaciones_gestion,#contenedor_tabla_ceco_gestion,#contenedor_tabla_depto_gestion,#contenedor_tabla_usu_gestion{
+		position:absolute;
+		top:50%;
+		left:50%;
+	}
+	::-webkit-scrollbar {
+		background-color:white;
+	}
+	
+	::-webkit-scrollbar{
+		width: 3px;
+		margin:auto;
+	}
+	::-webkit-scrollbar-track,::-webkit-scrollbar-button{
+		width:3px;
+	}
+	
+	::-webkit-scrollbar-thumb{ /*Barra Scroll*/
+		background-color:black;
+		border-radius:0.5em;
+		width:10px;
+	}
+		
+	.tabla_nuevos_datos{
+		font-size: 1.5em;
+		margin:auto;
+		padding:0px;
+	}
+	/*.tabla_nuevos_datos input{
+		width: 300px;
+		border-radius:5px;
+	}
+	.tabla_nuevos_datos textarea{
+		width:300px;
+		border-radius:5px;
+	}*/
+	.scroll_nueva_ventana > p,.scroll_nueva_ventana2 > p, .scroll_nueva_ventana3  > p,.scroll_nueva_ventana_cliente > p{
+		margin:auto;
+	}
+	a:link{
+		color:black;
+	}
+	.ventana_producto{
+		background-color:#DBDFDD;
+		width:auto;
+	}
+	.scroll_nueva_ventana,.scroll_nueva_ventana2,.scroll_nueva_ventana_cliente{
+		width:auto;
+		background-color:#DBDFDD;
+		overflow:scroll;
+		margin:auto;
+		overflow-x:hidden;
+	}
+	.scroll_nueva_ventana3{
+		width:auto;
+		background-color:white;
+		overflow:scroll;
+		margin:auto;
+	}
+	.titulo_nueva_ventana{
+		text-align:center;
+	}
+	.crear_nuevos_datos{
+		border-radius:1em;
+		padding:7px;
+		background-color:#979494;
+		color:white;
+	}
+	.mostrar_datos{
+		border-radius:1em;
+		padding:7px;
+		background-color:#979494;
+		color:white;
+	}
+	.boton_buscar_datos{
+		background-color: #4BC937;
+		border-color: #4BC937;
+		color: #F9FCF8;
+		padding: 4px;
+		border-radius: 2em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.tabla_opciones_busqueda_gestion th{
+		text-align:center;
+	}
+	.tabla_opciones_busqueda_gestion th:nth-child(2) input,.tabla_opciones_busqueda_gestion th:nth-child(4) input{
+		border-radius: 20px;
+		width: 150px;
+		height: 24px;
+		border: 1px solid BLACK;
+		background-color: white;
+		padding-left: 15px;
+		padding-right: 20px;
+	}
+	.input_redondos{
+		border-radius: 20px;
+		width: 150px;
+		height: 24px;
+		border: 1px solid BLACK;
+		background-color: white;
+		padding-left: 15px;
+		padding-right: 20px;
+	}
+	
+	.botton_verde{
+		background-color: #4BC937;
+		padding: 5px;
+		border-radius: 10px;
+		color:white;
+	}
+	.ui-dialog-title {
+		display:none;
+	}
+	.ui-dialog-titlebar {
+		background:transparent;
+		border:none;
+	}
+	.ui-dialog .ui-dialog-titlebar-close {
+		right:0;
+	}
+	.no-close .ui-dialog-titlebar-close {display: none; }
+	.ui-dialog-titlebar-close {
+	  visibility: hidden;
+	}
+	.ui-dialog-titlebar {
+		display:none;
+	}
+	.ui-dialog{
+		display:none;
+	}
+	
+	.fondo_apertura{
+		background-color: rgb(255,0,0,0.8); 
+		position:absolute;
+		left:36.4%;
+		top:36.6%;
+	}
+	
+	#contenedor_tabla_empresa_gestion,
+	#contenedor_tabla_cliente_gestion,
+	#contenedor_tabla_productos_cliente_gestion,
+	#contenedor_datos_consultas,
+	#contenedor_tabla_ubicaciones_gestion,
+	#contenedor_tabla_ceco_gestion,
+	#contenedor_tabla_depto_gestion{
+		overflow:scroll;
+		overflow-x:hidden;
+	}
+	
+	
+	/*CSS TABLAS DE INFORMACION GESTION*/
+	.tablas_muestra_datos_tablas tr:nth-child(odd){
+		background-color: #EBE5E5;
+	}
+	.tablas_muestra_datos_tablas tr:nth-child(even)){
+		background-color: white;
+	}
+	
+	.tablas_muestra_datos_tablas td{
+		font-size: 1em;
+		text-align: center;
+	}
+	.tablas_muestra_datos_tablas{
+		margin:auto;
+		width:95%;
+	}
+	
+	.tablas_muestra_datos_tablas th:first-child{
+		border-top-left-radius: 0.5em;
+	}
+	.tablas_muestra_datos_tablas th:last-child{
+		border-top-right-radius: 0.5em;
+	}
+	.tablas_muestra_datos_tablas tr:last-child td:first-child{
+		border-bottom-left-radius: 0.5em;
+	}
+	.tablas_muestra_datos_tablas tr:last-child td:last-child{
+		border-bottom-right-radius:  0.5em;
+	}
+	.campo_oculto_tabla{
+		display:none;
+	}
+	
+	.info_empresas_asociadas td{
+		font-size:1.1em;
+		border: 1px solid black;
+	}
+	.info_empresas_asociadas th{
+		margin:auto;
+		font-size:1.3em;
+	}
+	.info_empresas_asociadas input{
+		width:60px;
+	}
+	.mensaje_ingresado_bueno{
+		color:green;
+	}
+	.mensaje_ingresado_malo{
+		color:red;
+	}
+	#n_ceco,#e_ceco{
+		width:260px;
+	}
+	body{
+		font-size:1vw;
+	}
+	.oculto{
+		display:none;
+	}
+	.botones{
+		width:30px;
+		height:30px;
+	}

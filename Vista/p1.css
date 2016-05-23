@@ -1,0 +1,29 @@
+#contenedor{
+	text-align:center;
+}
+#tabla_central td{
+	text-align:center;
+	font-size:3em;
+	color:red;
+}
+#tabla_listado th{font-size:12px;}
+#tabla_listado td{
+	text-align:left;
+	padding-left:4px;
+	font-size:12px;
+	border:1px solid black;
+}
+#tabla_central,#tabla_listado{
+	width:100%;
+}
+#tabla_2 td{
+	text-align:center;
+}
+#logo_empresa{
+	width:100px;
+	height:auto;
+}
+
+#brief td{
+	text-align:center;
+}

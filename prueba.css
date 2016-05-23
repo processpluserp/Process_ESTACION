@@ -1,0 +1,61 @@
+#contenedor_cabecera{
+	background-color:#3F3E3D;
+	width:100%;
+}
+#cabecera td span{
+	color:white;
+}
+
+#nombre_usuario_contenedor{
+	background-color:white;
+	border-radius:0.7em;
+	height:70px;
+}
+@media screen and (min-width:1900px){
+	body{
+		font-size:25px;
+	}
+  #contenedor_cabecera{
+		height:200px;
+	}
+	.iconos_barra{
+		height:100px;
+		width:100px;
+	}
+	#nombre_usuario_contenedor{
+		height:70px;
+	}
+}
+
+
+@media  screen and (max-width:1350px){
+  #contenedor_cabecera{
+		height:100px;
+	}
+	.iconos_barra{
+		height:25px;
+		width:25px;
+	}
+	body{
+		font-size:5px;
+	}
+	#nombre_usuario_contenedor{
+		height:35px;
+	}
+}
+
+@media  screen and (max-width:1024px){
+  #contenedor_cabecera{
+		height:100px;
+	}
+	.iconos_barra{
+		height:20px;
+		width:20px;
+	}
+	body{
+		font-size:5px;
+	}
+	#nombre_usuario_contenedor{
+		height:35px;
+	}
+}
